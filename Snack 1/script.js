@@ -5,15 +5,15 @@
 const bikes = [
     {
         name: "Bianchi",
-        weight: 35
+        weight: 3.5
     },
     {
         name: "Atala",
-        weight: 30
+        weight: 3
     },
     {
         name:"Casati",
-        weight: 45
+        weight: 4.5
     }
 ]
 

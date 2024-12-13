@@ -30,24 +30,13 @@ for (let i = 0; i < teams.length; i++) {
 
 console.log(teams)
 // Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
-const teamsFouls = [
-    {
-        name: "Milan",
-        fouls: 0
-    },
-    {
-        name: "Inter",
-        fouls: 0 
-    },
-    {
-        name: "Juventus",
-        fouls: 0
-    }
-]
+const teamsFouls = []
 
 for (let i = 0; i < teams.length; i++) {
-    teamsFouls[i].name = teams[i].name
-    teamsFouls[i].fouls = teams[i].fouls
+    teamsFouls.push({
+        name: teams[i].name,
+        fouls: teams[i].fouls
+    });
 }
 
 console.log(teamsFouls)
